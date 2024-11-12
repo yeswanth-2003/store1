@@ -17,7 +17,7 @@ function ProductDetail() {
   return (
         <div style={{padding:'200px 600px 300px 25% ',background:'linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%)'}}>
 
-            <div className="card mb-3" style={{width: '800px',background: 'linear-gradient(180.3deg, rgb(221, 221, 221) 5.5%, rgb(110, 136, 161) 90.2%)'}}>
+            <div className="card mb-3" style={{maxWidth: '800px',background: 'linear-gradient(180.3deg, rgb(221, 221, 221) 5.5%, rgb(110, 136, 161) 90.2%)'}}>
                 <div className="row g-0">
                     <div className="col-md-4">
                         <img src={product.image} className="img-fluid rounded-start" style={{maxWidth: '80%',maxHeight:'80%',marginBottom:'50px',marginTop:'80px',marginLeft:'25px'}}/>
