@@ -9,13 +9,17 @@ import ProductDetail from './components/singleitem';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  
-  <Router>
-     <Routes>
-          <Route path="/" element={<Category />} />
-          <Route path="/product/:id" element={<ProductDetail />} />
-        </Routes>
-  </Router>
+  <React.StrictMode>
+    <BrowserRouter>
+    <App/>
+    </BrowserRouter>
+  </React.StrictMode>
+  // <Router>
+  //    <Routes>
+  //         <Route path="/" element={<Category />} />
+  //         <Route path="/product/:id" element={<ProductDetail />} />
+  //       </Routes>
+  // </Router>
 );
 
 // If you want to start measuring performance in your app, pass a function
