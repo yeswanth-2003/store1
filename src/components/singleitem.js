@@ -16,7 +16,7 @@ function ProductDetail() {
 
   return (
     
-        <div style={{marginLeft:'25%',marginTop:'200px'}}>
+        <div style={{marginLeft:'25%',marginTop:'200px',marginRight:'25%'}}>
             <div className="card mb-3" style={{maxWidth: '800px'}}>
                 <div className="row g-0">
                     <div className="col-md-4">
