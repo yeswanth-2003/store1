@@ -20,7 +20,7 @@ function ProductDetail() {
             <div className="card mb-3" style={{maxWidth: '800px'}}>
                 <div className="row g-0">
                     <div className="col-md-4">
-                        <img src={product.image} className="img-fluid rounded-start" style={{maxWidth: '250px',maxHeight:'250px',marginBottom:'50px',marginTop:'50px',marginLeft:'25px'}}/>
+                        <img src={product.image} className="img-fluid rounded-start" style={{maxWidth: '80%',maxHeight:'80%',marginBottom:'50px',marginTop:'80px',marginLeft:'25px'}}/>
                     </div>
                     <div className="col-md-8">
                         <div className="card-body">
