@@ -15,7 +15,7 @@ function ProductDetail() {
   }, [id]); 
 
   return (
-        <div style={{padding:'200px 600px 300px 25% ',background:'linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%)'}}>
+        <div style={{padding:'250px 400px 250px 400px ',background:'linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%)'}}>
 
             <div className="card mb-3" style={{maxWidth: '800px',background: 'linear-gradient(180.3deg, rgb(221, 221, 221) 5.5%, rgb(110, 136, 161) 90.2%)'}}>
                 <div className="row g-0">
