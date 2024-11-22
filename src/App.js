@@ -6,7 +6,7 @@ import ProductDetail from './components/singleitem';
 import Cart from './components/cart';
 import { Provider } from 'react-redux';
 import store from './components/redux';
-
+import Wishlist from './components/wishlist';
 function App() {
     return(
       <div>
@@ -15,6 +15,7 @@ function App() {
           <Route path="/" element={<Category />} />
           <Route path="/product/:id" element={<ProductDetail />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/wishlist" element={<Wishlist />} />
         </Routes>
         </Provider>
     
