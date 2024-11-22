@@ -48,7 +48,7 @@ function Category() {
 
     return (
         <div style={{  backgroundColor:'#bbe9db'}}>
-            <div style={{paddingBottom:'25px',backgroundColor:'#79c2d0'}}>
+            <div style={{display:'flex',justifyContent:'space-around',paddingBottom:'25px',backgroundColor:'#79c2d0'}}>
                 {categories.map((category, index) => (
                    <button 
                         style={{color:'black', backgroundColor:'#5585b5', height:'40px',width:'180px',marginLeft: '100px ', marginTop: '25px', textTransform: 'uppercase' }}
