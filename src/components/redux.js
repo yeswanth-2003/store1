@@ -38,15 +38,7 @@ const cartSlice1 = createSlice({
   reducers: {
 
     addToWishlist: (state, action) => {
-      // const itemIndex = state.findIndex(item => item.id === action.payload.id);
-
-      // if (itemIndex >= 0) {
-
-      //   state[itemIndex].quantity += 1; 
-    
-      // } else {
         state.push({ ...action.payload, quantity: 1 }); 
-      // }
     },
 
     removeFromWishlist: (state, action) => {
